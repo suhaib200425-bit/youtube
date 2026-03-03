@@ -1,0 +1,123 @@
+.NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.NavBar .LeftBox,
+.NavBar .CenterBox,
+.NavBar .RightBox {
+    display: flex;
+    align-items: center;
+}
+
+.NavBar .CenterBox {
+    gap: 20px;
+}
+
+.NavBar .RightBox {
+    gap: 10px;
+}
+
+.NavBar .LeftBox img {
+    width: 70px;
+    height: 50px;
+}
+
+.CenterBox .MicIcon {
+    border-radius: 50%;
+    background-color: rgba(49, 48, 48, 0.507);
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CenterBox .SearchBox {
+    height: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* padding: 5px 10px; */
+    background-color: black;
+    border-radius: 30px;
+    border: 1px solid rgba(49, 48, 48, 0.507);
+    overflow: hidden;
+
+}
+
+.SearchBox .SearchInput {
+    padding: 5px 10px;
+    width: 100%;
+    background-color: black;
+}
+
+.SearchBox .SearchIcon {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100% !important; */
+    background-color: rgba(49, 48, 48, 0.507);
+    width: 20%;
+}
+
+.SearchInput input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+.RightBox .CreatePost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(49, 48, 48, 0.507);
+    border-radius: 40px;
+}
+
+.RightBox .Profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.RightBox .Profile img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 575.98px) {
+
+    /* Your CSS here */
+    .CenterBox .SearchBox {
+        width: 40px;
+    }
+
+    .SearchBox .SearchInput {
+        display: none;
+    }
+    
+.CenterBox .MicIcon {
+    display: none;
+}
+
+.RightBox .Notification{
+    display: none;
+}
+}
