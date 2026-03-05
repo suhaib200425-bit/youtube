@@ -124,13 +124,15 @@
     }
 
     .rightBox {
+        display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         margin: 0;
     }
 
     .rightBox .Discription {
-        margin-bottom: 15px;
+        margin-top: 5px;
     }
 
     .VideoBtns {
