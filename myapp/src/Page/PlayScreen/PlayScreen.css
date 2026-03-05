@@ -1,0 +1,152 @@
+.PlayScreen {
+    display: flex;
+    gap: 10px;
+}
+
+.PlayScreenContent {
+    width: 100%;
+    padding-top: 50px;
+    height: 100dvh;
+    overflow-y: scroll;
+}
+
+/* .PlayScreenContent .leftBox{
+
+    
+} */
+.videoplayer {
+    height: 70dvh;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    /* background-color: blue; */
+}
+
+.PlayScreenContent .Description {
+    font-size: 20px;
+
+}
+
+.VideoBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftBtns {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.leftBtns .ChannelImage {
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+}
+
+.leftBtns .ChannelName {
+    line-height: 0px;
+}
+
+.leftBtns .ChannelName p {
+    color: rgba(171, 169, 166, 0.637);
+}
+
+.leftBtns .SubscribeBtn {
+    height: max-content;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightBtns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightBtns .background {
+    background-color: rgba(75, 69, 69, 0.4);
+    padding: 5px 13px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightBtns .LikeAndUnlike {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.PlayScreenContent .rightBox .BannerImage {
+    height: 100px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightBox .Discription {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.rightBox .channelName,
+.rightBox .other {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+@media (max-width: 575.98px) {
+    .videoplayer {
+        height: 25dvh;
+    }
+
+    .PlayScreenContent .rightBox .BannerImage {
+        height: 200px;
+        /* width: 100% !important; */
+    }
+     .rightBox{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+     }
+
+    .rightBox .Discription {
+        margin-bottom: 15px;
+    }
+
+    .VideoBtns {
+        display: block;
+    }
+
+    .background p {
+        display: none;
+    }
+
+    .rightBtns {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        justify-content: start;
+    }
+
+    .leftBtns .SubscribeBtn {
+        margin-left: 30px;
+    }
+}

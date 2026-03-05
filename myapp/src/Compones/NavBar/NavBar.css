@@ -9,6 +9,8 @@
     top: 0;
     left: 0;
     overflow: hidden;
+    backdrop-filter: blur(10px);
+    z-index: 99;
 }
 
 .NavBar .LeftBox,

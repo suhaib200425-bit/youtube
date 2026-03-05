@@ -4,7 +4,9 @@ import { DisplayData } from '../../assets/assets'
 import TabBar from '../../Compones/TabBar/TabBar'
 import LeftBar from '../../Compones/LeftBar/LeftBar';
 import VideoCard from '../../Compones/videoCard/VideoCard';
+import { useNavigate } from 'react-router-dom';
 function Home() {
+    const Navigate=useNavigate()
     function formatViews(num) {
         if (num >= 1000000) {
             return (num / 1000000).toFixed(1).replace(".0", "") + "M";
@@ -43,9 +45,11 @@ function Home() {
                 <TabBar />
 
                 {
-                    DisplayData.splice(0,3).map(elem => {
-                        return <div className="col-12 col-md-4 p-2">
-                            <div className="CARD">
+                    DisplayData.splice(0,4).map(elem => {
+                        return <div className="col-12 col-md-3 p-2">
+                            <div className="CARD" onClick={()=>{
+                                Navigate('/watch/100')
+                            }}>
                                 <div className="media">
                                     <iframe
                                         src={`https://www.youtube.com/embed/${elem.videoId}/?iv_load_policy=3&autoplay=1&fs=0&disablekb=1&mute=1&loop=1&controls=0&modestbranding=1&playlist=${elem.videoId}`}
@@ -76,29 +80,29 @@ function Home() {
                     })
                 }
                 <div className="row col-12 m-0 p-">
-                    <div className="col-md-2 col-6 p-2">
+                    <div className="col-md-2 col-6 p-sm-2 p-1">
                         <VideoCard Type={'Shorts'} Thumbnail='https://yt3.ggpht.com/proxy/_h_sTMBPKqGyElKgRKtIQZstLbUot27-jHHDXGNUzhx2zYcJQpHuf620mZ5vbSNeqgx_H0_1gVE1pfOIeYqrpSCwvj15EWkxy7guK-WR4rYzcWO4OFq7jGdAIOQhh0xgPg=w1152-h603-nd' />
                     </div>
-                    <div className="col-md-2 col-6 p-2">
+                    <div className="col-md-2 col-6 p-sm-2 p-1">
                         <VideoCard Type={'Shorts'} Thumbnail='https://i.ytimg.com/vi/B9lV_HfXk_U/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAxsm2EWa0--ifEWwItKikMsez2Xw' />
                     </div>
-                    <div className="col-md-2 col-6 p-2">
+                    <div className="col-md-2 col-6 p-sm-2 p-1">
                         <VideoCard Type={'Shorts'} Thumbnail='https://i.ytimg.com/vi/o3IqOrXtxm8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCYE8M_cvBQcxOoHeQUpkH7Dj2llQ' />
                     </div>
-                    <div className="col-md-2 col-6 p-2">
+                    <div className="col-md-2 col-6 p-sm-2 p-1">
                         <VideoCard Type={'Shorts'} Thumbnail='https://yt3.ggpht.com/proxy/_h_sTMBPKqGyElKgRKtIQZstLbUot27-jHHDXGNUzhx2zYcJQpHuf620mZ5vbSNeqgx_H0_1gVE1pfOIeYqrpSCwvj15EWkxy7guK-WR4rYzcWO4OFq7jGdAIOQhh0xgPg=w1152-h603-nd' />
                     </div>
-                    <div className="col-md-2 col-6 p-2">
+                    <div className="col-md-2 col-6 p-sm-2 p-1">
                         <VideoCard Type={'Shorts'} Thumbnail='https://yt3.ggpht.com/proxy/_h_sTMBPKqGyElKgRKtIQZstLbUot27-jHHDXGNUzhx2zYcJQpHuf620mZ5vbSNeqgx_H0_1gVE1pfOIeYqrpSCwvj15EWkxy7guK-WR4rYzcWO4OFq7jGdAIOQhh0xgPg=w1152-h603-nd' />
                     </div>
 
-                    <div className="col-md-2 col-6 p-2">
+                    <div className="col-md-2 col-6 p-sm-2 p-1">
                         <VideoCard Type={'Shorts'} Thumbnail='https://i.ytimg.com/vi/o3IqOrXtxm8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCYE8M_cvBQcxOoHeQUpkH7Dj2llQ' />
                     </div>
                 </div>
                 {
                     DisplayData.splice(3,6).map(elem => {
-                        return <div className="col-12 col-md-4 p-2">
+                        return <div className="col-12 col-md-3 p-2">
                             <div className="CARD">
                                 <div className="media">
                                     <iframe
