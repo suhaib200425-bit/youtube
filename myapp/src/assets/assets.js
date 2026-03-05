@@ -12,6 +12,8 @@ export const shorts=[
     "caption": "Malayalam tech reel 🎬",
     "likes": 1200,
     "comments": 45,
+    "isLiked": true,
+    "disLike": false,
     "shares": 12,
     "createdAt": "2026-03-01T10:30:00Z"
   },
@@ -23,6 +25,8 @@ export const shorts=[
     "caption": "Short clip style reel 🎥",
     "likes": 980,
     "comments": 30,
+    "isLiked": false,
+    "disLike": true,
     "shares": 8,
     "createdAt": "2026-03-02T14:15:00Z"
   },
@@ -34,6 +38,8 @@ export const shorts=[
     "caption": "Malayalam style short 🔥",
     "likes": 450,
     "comments": 12,
+    "isLiked": true,
+    "disLike": false,
     "shares": 5,
     "createdAt": "2026-03-02T18:20:00Z"
   },
@@ -45,6 +51,8 @@ export const shorts=[
     "caption": "Cinematic reel vibe 🎞️",
     "likes": 2100,
     "comments": 90,
+    "isLiked": false,
+    "disLike": true,
     "shares": 25,
     "createdAt": "2026-03-03T09:00:00Z"
   },
@@ -56,6 +64,8 @@ export const shorts=[
     "caption": "Malayalam love scene edit ❤️",
     "likes": 760,
     "comments": 22,
+    "isLiked": true,
+    "disLike": false,
     "shares": 11,
     "createdAt": "2026-03-03T11:45:00Z"
   },
@@ -67,6 +77,8 @@ export const shorts=[
     "caption": "Action reel edit 💥",
     "likes": 1340,
     "comments": 55,
+    "isLiked": false,
+    "disLike": true,
     "shares": 18,
     "createdAt": "2026-03-03T14:10:00Z"
   },
@@ -78,6 +90,8 @@ export const shorts=[
     "caption": "Malayalam comedy short 😂",
     "likes": 1890,
     "comments": 70,
+    "isLiked": true,
+    "disLike": false,
     "shares": 20,
     "createdAt": "2026-03-03T16:25:00Z"
   },
@@ -89,6 +103,8 @@ export const shorts=[
     "caption": "Travel reel vibe 🌄",
     "likes": 620,
     "comments": 18,
+    "isLiked": false,
+    "disLike": true,
     "shares": 7,
     "createdAt": "2026-03-03T18:00:00Z"
   },
@@ -100,6 +116,8 @@ export const shorts=[
     "caption": "Malayalam review reel 🚗",
     "likes": 990,
     "comments": 34,
+    "isLiked": true,
+    "disLike": false,
     "shares": 14,
     "createdAt": "2026-03-03T19:40:00Z"
   },
@@ -111,6 +129,8 @@ export const shorts=[
     "caption": "Full movie edit style 🎥",
     "likes": 1500,
     "comments": 60,
+    "isLiked": false,
+    "disLike": true,
     "shares": 21,
     "createdAt": "2026-03-03T21:00:00Z"
   }
