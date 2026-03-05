@@ -75,24 +75,24 @@ function Home() {
                         </div>
                     })
                 }
-                <div className="row col-12">
-                    <div className="col-2 p-2">
+                <div className="row col-12 m-0 p-">
+                    <div className="col-md-2 col-6 p-2">
                         <VideoCard Type={'Shorts'} Thumbnail='https://yt3.ggpht.com/proxy/_h_sTMBPKqGyElKgRKtIQZstLbUot27-jHHDXGNUzhx2zYcJQpHuf620mZ5vbSNeqgx_H0_1gVE1pfOIeYqrpSCwvj15EWkxy7guK-WR4rYzcWO4OFq7jGdAIOQhh0xgPg=w1152-h603-nd' />
                     </div>
-                    <div className="col-2 p-2">
+                    <div className="col-md-2 col-6 p-2">
                         <VideoCard Type={'Shorts'} Thumbnail='https://i.ytimg.com/vi/B9lV_HfXk_U/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAxsm2EWa0--ifEWwItKikMsez2Xw' />
                     </div>
-                    <div className="col-2 p-2">
+                    <div className="col-md-2 col-6 p-2">
                         <VideoCard Type={'Shorts'} Thumbnail='https://i.ytimg.com/vi/o3IqOrXtxm8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCYE8M_cvBQcxOoHeQUpkH7Dj2llQ' />
                     </div>
-                    <div className="col-2 p-2">
+                    <div className="col-md-2 col-6 p-2">
                         <VideoCard Type={'Shorts'} Thumbnail='https://yt3.ggpht.com/proxy/_h_sTMBPKqGyElKgRKtIQZstLbUot27-jHHDXGNUzhx2zYcJQpHuf620mZ5vbSNeqgx_H0_1gVE1pfOIeYqrpSCwvj15EWkxy7guK-WR4rYzcWO4OFq7jGdAIOQhh0xgPg=w1152-h603-nd' />
                     </div>
-                    <div className="col-2 p-2">
+                    <div className="col-md-2 col-6 p-2">
                         <VideoCard Type={'Shorts'} Thumbnail='https://yt3.ggpht.com/proxy/_h_sTMBPKqGyElKgRKtIQZstLbUot27-jHHDXGNUzhx2zYcJQpHuf620mZ5vbSNeqgx_H0_1gVE1pfOIeYqrpSCwvj15EWkxy7guK-WR4rYzcWO4OFq7jGdAIOQhh0xgPg=w1152-h603-nd' />
                     </div>
 
-                    <div className="col-2 p-2">
+                    <div className="col-md-2 col-6 p-2">
                         <VideoCard Type={'Shorts'} Thumbnail='https://i.ytimg.com/vi/o3IqOrXtxm8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCYE8M_cvBQcxOoHeQUpkH7Dj2llQ' />
                     </div>
                 </div>

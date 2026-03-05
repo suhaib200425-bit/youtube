@@ -76,6 +76,7 @@ font-size: 13px;
 @media (max-width: 575.98px) {
     .Home .ContentBox{
         width: 100%;
+    padding: 0px;
         margin-left: 0;
     }
 }
