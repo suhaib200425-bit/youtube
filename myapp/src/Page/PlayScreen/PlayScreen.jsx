@@ -61,10 +61,10 @@ function PlayScreen() {
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 rightBox ">
+                <div className="col-12 col-md-4 rightBox p-0">
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -75,7 +75,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -86,7 +86,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -97,7 +97,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -108,7 +108,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -119,7 +119,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -130,7 +130,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -141,7 +141,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -152,7 +152,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -163,7 +163,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -174,7 +174,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -185,7 +185,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -196,7 +196,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -207,7 +207,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -218,7 +218,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -229,7 +229,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -240,7 +240,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -251,7 +251,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -262,7 +262,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -273,7 +273,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -284,7 +284,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -295,7 +295,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -306,7 +306,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
@@ -317,7 +317,7 @@ function PlayScreen() {
                     </div>
                     <div className="col-12 row mb-2">
                         <div className="col-12 col-md-6">
-                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/an_webp/AAhAGfeAaK0/mqdefault_6s.webp?du=3000&sqp=CNjCpc0G&rs=AOn4CLCXyVKc8TT_LtLUFJmmOSgZLqg3pQ)` }}>
+                            <div className="BannerImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/0KRgPHJK_DE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCD40vvqFxBUfuexHjEUIm6kRPukA)` }}>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">

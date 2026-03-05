@@ -80,4 +80,8 @@ font-size: 13px;
     padding-top: 40px;
         margin-left: 0;
     }
+    
+.CARD .media .thumbnail{
+    height: 250px;
+}
 }

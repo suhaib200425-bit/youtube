@@ -122,11 +122,12 @@
         height: 200px;
         /* width: 100% !important; */
     }
-     .rightBox{
+
+    .rightBox {
         justify-content: center;
         align-items: center;
         margin: 0;
-     }
+    }
 
     .rightBox .Discription {
         margin-bottom: 15px;
