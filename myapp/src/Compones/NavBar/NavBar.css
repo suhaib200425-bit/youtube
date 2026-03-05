@@ -96,14 +96,14 @@
     border-radius: 40px;
 }
 
-.RightBox .Profile {
+.RightBox .NavBarProfile {
     width: 35px;
     height: 35px;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.RightBox .Profile img {
+.RightBox .NavBarProfile img {
     width: 100%;
     height: 100%;
 }

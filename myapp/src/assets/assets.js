@@ -3,6 +3,24 @@ import Logo from '../assets/logo.png'
 
 export {Logo}
 
+export const profile={
+  "id": "yt_001",
+  "channelName": "Tech Suhaib",
+  "username": "@tech_suhaib",
+  "profilePic": "https://randomuser.me/api/portraits/men/32.jpg",
+  "banner": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  "subscribers": "12.5K",
+  "videos": 120,
+  "description": "React, Node.js tutorials and web development tips.",
+  "joined": "Jan 2022",
+  "location": "India",
+  "links": {
+    "instagram": "https://instagram.com/tech_suhaib",
+    "twitter": "https://twitter.com/tech_suhaib",
+    "website": "https://techsuhaib.dev"
+  }
+}
+
 export const shorts=[
   {
     "id": 1,

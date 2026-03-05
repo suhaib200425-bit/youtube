@@ -1,0 +1,131 @@
+.Profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100dvh;
+    padding-top: 50px;
+
+}
+
+.Profile .ProfileContent {
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
+.ProfileContent .ProfileBanner {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Profile .MainProfileContent {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.MainProfileContent .ProfileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ProfileDetails .shotdescription {
+    display: flex;
+    gap: 10px;
+}
+
+.ProfileDetails .Description {
+    color: rgba(194, 188, 188, 0.715);
+}
+
+.ProfileDetails .SubscribeBtn {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profileTab {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.profileTab .tabItem {
+    /* padding: ; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(238, 229, 229, 0.62);
+}
+
+.profileTab .tabItem:hover {
+    border-bottom: 2px solid rgba(238, 229, 229, 0.62);
+}
+
+.profileTab .ActivetabItem {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.Profile .ProfileHed {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ProfileHed .View {
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.videoCards{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 575.98px) {
+    .Profile .ProfileContent{
+        padding: 7px;
+    }
+    .Profile .ProfileImage {
+        width: 100%;
+        margin-left: 0;
+        max-width: 60px;
+        min-width: 60px;
+        height: 60px;
+    }
+    .ProfileName{
+        font-size: 18px;
+    }
+    .shotdescription{
+        font-size: 13px;
+    }
+    .Description{
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .ProfileDetails .SubscribeBtn{
+        padding: 5px 10px;
+        width: 100%;
+        background-color: red;
+        color: white;
+    }
+    .ProfileBanner{
+        height: 100px !important;
+    }
+}

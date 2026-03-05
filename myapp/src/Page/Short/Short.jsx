@@ -51,6 +51,16 @@ function Short() {
                 return (
                   <div key={elem.id} className="short">
                     <video
+                    onClick={
+                      (el)=>{
+                        if(el.target.paused){
+                          el.target.play()
+                        }else{
+                          el.target.pause()
+                        }
+
+                      }
+                    }
                       id={index}
                       ref={(el) => (videoRefs.current[index] = el)}
                       src={elem.videoUrl}
