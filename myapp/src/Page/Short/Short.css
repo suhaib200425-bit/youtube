@@ -1,0 +1,51 @@
+.Short {
+      display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100vh;
+    padding-top: 90px;
+    justify-content: center;
+}
+
+.ShortContent {
+  width: 100%;
+}
+
+.ShortContent .leftBox {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+}
+
+.leftBox .shorts-container {
+  height: 90vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  padding-bottom: 20px;
+}
+
+.short {
+  height: 100%;
+  scroll-snap-align: start;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: white;
+  overflow: hidden;
+}
+
+.short video {
+  max-width: 350px;
+  object-fit: cover;
+  height: 100%;
+}
+@media (max-width: 575.98px) {
+    .short video{
+         max-width: 100%;
+        /* margin-left: 0; */
+    }
+}

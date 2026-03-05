@@ -1,6 +1,120 @@
 import Logo from '../assets/logo.png'
 
+
 export {Logo}
+
+export const shorts=[
+  {
+    "id": 1,
+    "username": "rahul_dev",
+    "profilePic": "https://randomuser.me/api/portraits/men/1.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "caption": "Malayalam tech reel 🎬",
+    "likes": 1200,
+    "comments": 45,
+    "shares": 12,
+    "createdAt": "2026-03-01T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "username": "anu_codes",
+    "profilePic": "https://randomuser.me/api/portraits/women/2.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "caption": "Short clip style reel 🎥",
+    "likes": 980,
+    "comments": 30,
+    "shares": 8,
+    "createdAt": "2026-03-02T14:15:00Z"
+  },
+  {
+    "id": 3,
+    "username": "tech_suhaib",
+    "profilePic": "https://randomuser.me/api/portraits/men/3.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "caption": "Malayalam style short 🔥",
+    "likes": 450,
+    "comments": 12,
+    "shares": 5,
+    "createdAt": "2026-03-02T18:20:00Z"
+  },
+  {
+    "id": 4,
+    "username": "frontend_master",
+    "profilePic": "https://randomuser.me/api/portraits/men/4.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    "caption": "Cinematic reel vibe 🎞️",
+    "likes": 2100,
+    "comments": 90,
+    "shares": 25,
+    "createdAt": "2026-03-03T09:00:00Z"
+  },
+  {
+    "id": 5,
+    "username": "css_girl",
+    "profilePic": "https://randomuser.me/api/portraits/women/5.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "caption": "Malayalam love scene edit ❤️",
+    "likes": 760,
+    "comments": 22,
+    "shares": 11,
+    "createdAt": "2026-03-03T11:45:00Z"
+  },
+  {
+    "id": 6,
+    "username": "node_backend",
+    "profilePic": "https://randomuser.me/api/portraits/men/6.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "caption": "Action reel edit 💥",
+    "likes": 1340,
+    "comments": 55,
+    "shares": 18,
+    "createdAt": "2026-03-03T14:10:00Z"
+  },
+  {
+    "id": 7,
+    "username": "react_pro",
+    "profilePic": "https://randomuser.me/api/portraits/men/7.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "caption": "Malayalam comedy short 😂",
+    "likes": 1890,
+    "comments": 70,
+    "shares": 20,
+    "createdAt": "2026-03-03T16:25:00Z"
+  },
+  {
+    "id": 8,
+    "username": "design_queen",
+    "profilePic": "https://randomuser.me/api/portraits/women/8.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "caption": "Travel reel vibe 🌄",
+    "likes": 620,
+    "comments": 18,
+    "shares": 7,
+    "createdAt": "2026-03-03T18:00:00Z"
+  },
+  {
+    "id": 9,
+    "username": "js_master",
+    "profilePic": "https://randomuser.me/api/portraits/men/9.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+    "caption": "Malayalam review reel 🚗",
+    "likes": 990,
+    "comments": 34,
+    "shares": 14,
+    "createdAt": "2026-03-03T19:40:00Z"
+  },
+  {
+    "id": 10,
+    "username": "web_dev",
+    "profilePic": "https://randomuser.me/api/portraits/men/10.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+    "caption": "Full movie edit style 🎥",
+    "likes": 1500,
+    "comments": 60,
+    "shares": 21,
+    "createdAt": "2026-03-03T21:00:00Z"
+  }
+]
 export const channels=[
   {
     "channelId": "UC1111111111",
@@ -129,7 +243,7 @@ export const DisplayData=[
     "videoId": "dQw4w9WgXcQ",
     "title": "React Tutorial for Beginners",
     "description": "Learn React step by step in Malayalam",
-    "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+    "thumbnail": "https://i.ytimg.com/vi/-iCKsrz9fDs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDQY3aA5z6of8gRits5WNE_NRnDbQ",
     "duration": "12:45",
     "views": 125430,
     "uploadedAt": "2025-02-15T10:30:00Z",

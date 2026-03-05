@@ -1,0 +1,84 @@
+.LeftBar{
+    padding-top: 50px;
+    height: 100%;
+    scrollbar-width:none ;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/* Chrome, Edge, Safari */
+.Home .LeftBar::-webkit-scrollbar {
+  display: none;
+}
+
+.LeftBar .Unactive{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.Unactive .IconBtn p{
+    font-size: 13px;
+    color: gainsboro;
+}
+.LeftBar .Active{
+    /* scroll-snap-type:proximity; */
+    /* scrollbar-width:none ; */
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
+    /* gap: 10px; */
+    width: 200px;
+    /* margin-bottom: 5px; */
+}
+.Active .IconBtn img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Active .IconBtn{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.Active .IconBtn:hover{
+    transition: 0.3s;
+    background: rgba(48, 46, 46, 0.5);
+}
+.Active .ActiveColor{
+
+    background: rgba(48, 46, 46, 0.5);
+}
+
+
+.Unactive .ActiveColor{
+
+    background: rgba(48, 46, 46, 0.5);
+}
+.Unactive .IconBtn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Active .IconBtn h6{
+    margin: 0;
+}
+@media (max-width: 575.98px) {
+    .LeftBar .Unactive{
+        display: none;
+        width: 0px;
+    }
+     .LeftBar{
+        background-color: black;
+        position: absolute;
+        left: 0;
+        top: 50px;
+    }
+}

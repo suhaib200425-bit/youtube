@@ -2,3 +2,10 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+@media (max-width: 575.98px) {
+  .App{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+}

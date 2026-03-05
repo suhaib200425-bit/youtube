@@ -1,0 +1,28 @@
+.TabBar{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    position: fixed;
+    background-color: black;
+    top: 50px;
+}
+.TabBar .Item{
+    /* width: 50px; */
+    padding: 5px 10px;
+  white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(41, 40, 41, 0.904);
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+.TabBar .ItemActive{
+    background-color: gainsboro;
+    color: black;
+    transition: 0.3s;
+}
