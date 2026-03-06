@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/shorts" element={<Short />} />
         <Route path="/Profile" element={<Profile />} />
-        <Route path="/watch/:id" element={<PlayScreen />} />
+        <Route path="/watch/:videoId/:categoryId" element={<PlayScreen />} />
       </Routes>
     </div>
   )

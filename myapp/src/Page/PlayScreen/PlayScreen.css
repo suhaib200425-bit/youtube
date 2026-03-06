@@ -57,7 +57,13 @@
 .leftBtns .ChannelName p {
     color: rgba(171, 169, 166, 0.637);
 }
-
+.leftBox .Description{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .leftBtns .SubscribeBtn {
     height: max-content;
     padding: 5px 10px;
