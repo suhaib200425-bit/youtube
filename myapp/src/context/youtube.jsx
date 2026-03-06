@@ -4,8 +4,8 @@ const YouTubeContext = createContext();
 
 export const YouTubeProvider = ({ children }) => {
   const [activebar, setactivebar] = useState(false);
-  const [ActiveTabBar, setActiveTabBar] = useState(false);
-  const [ActiveLeftBar, setActiveLeftBar] = useState('Home');
+  const [ActiveTabBar, setActiveTabBar] = useState({});
+  const [ActiveLeftBar, setActiveLeftBar] = useState({name:'Home'});
 
   return (
     <YouTubeContext.Provider value={{ activebar, setactivebar,ActiveTabBar,setActiveTabBar,ActiveLeftBar,setActiveLeftBar }}>

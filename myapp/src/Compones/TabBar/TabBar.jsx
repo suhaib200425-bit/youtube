@@ -1,49 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './TabBar.css'
 import { useYouTube } from '../../context/youtube'
-function TabBar() {
-    const {ActiveTabBar,setActiveTabBar}=useYouTube()
-    const list = [
-        'All',
-        'News',
-        'Live',
-        'Music',
-        'Gaming',
-        'Ai',
-        'Flutter',
-        'Source Code',
-        'Mix',
-        'Tamil Movies',
-        'News',
-        'Live',
-        'Music',
-        'Gaming',
-        'Ai',
-        'Flutter',
-        'Source Code',
-        'Mix',
-        'Tamil Movies',
-        'News',
-        'Live',
-        'Music',
-        'Gaming',
-        'Ai',
-        'Flutter',
-        'Source Code',
-        'Mix',
-        'Tamil Movies'
-    ]
-  return (
-    <div className='TabBar'>
-{
-    list.map(elem=>{
-        return <div onClick={()=>{
-            setActiveTabBar(elem)
-        }} className={ActiveTabBar==elem?"Item ItemActive":"Item"} >{elem}</div>
-    })
-}
-    </div>
-  )
+import { Category } from '../../assets/assets'
+import axios from 'axios'
+function TabBar({ API }) {
+    const { ActiveTabBar, setActiveTabBar } = useYouTube()
+    const [AllCategory, setAllCategory] = useState([])
+    useEffect(() => {
+        async function GetCategory() {
+            const response =await axios.get(API)
+            setAllCategory(response.data.items)
+        }
+        GetCategory()
+    }, [])
+    return (
+        <div className='TabBar'>
+            {
+                AllCategory&&AllCategory.map(elem => {
+                    return <div onClick={() => {
+                        setActiveTabBar({
+                            name:elem.snippet.title,
+                            id:elem.id
+                        })
+                    }} key={elem.id} className={ActiveTabBar.name == elem.snippet.title ? "Item ItemActive" : "Item"} >{elem.snippet.title}</div>
+                })
+            }
+        </div>
+    )
 }
 
 export default TabBar

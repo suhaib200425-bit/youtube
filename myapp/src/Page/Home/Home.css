@@ -85,3 +85,14 @@ font-size: 13px;
     height: 250px;
 }
 }
+
+
+
+
+.ChannelDetails .description{
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

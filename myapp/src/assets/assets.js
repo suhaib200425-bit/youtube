@@ -2,6 +2,64 @@ import Logo from '../assets/logo.png'
 
 
 export {Logo}
+export const Category=[
+  {
+    "id": 1,
+    "name": "All"
+  },
+  {
+    "id": 2,
+    "name": "Music"
+  },
+  {
+    "id": 3,
+    "name": "Gaming"
+  },
+  {
+    "id": 4,
+    "name": "News"
+  },
+  {
+    "id": 5,
+    "name": "Sports"
+  },
+  {
+    "id": 6,
+    "name": "Movies"
+  },
+  {
+    "id": 7,
+    "name": "Live"
+  },
+  {
+    "id": 8,
+    "name": "Education"
+  },
+  {
+    "id": 9,
+    "name": "Comedy"
+  },
+  {
+    "id": 10,
+    "name": "Technology"
+  },
+  {
+    "id": 11,
+    "name": "Travel"
+  },
+  {
+    "id": 12,
+    "name": "Food"
+  },
+  {
+    "id": 13,
+    "name": "Fashion"
+  },
+  {
+    "id": 14,
+    "name": "Podcast"
+  }
+]
 
 export const profile={
   "id": "yt_001",
