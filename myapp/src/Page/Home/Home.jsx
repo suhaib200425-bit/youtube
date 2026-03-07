@@ -22,13 +22,14 @@ function Home() {
         console.log(ActiveTabBar);
 
 
-        const SubPart = `&regionCode=IN${ActiveTabBar.id != null ? `&videoCategoryId=${ActiveTabBar.id}&` : '&'}maxResults=12&chart=mostPopular&key=${API_KEY}`
+        const SubPart = `&regionCode=AE${ActiveTabBar.id != null ? `&videoCategoryId=${ActiveTabBar.id}&` : '&'}maxResults=12&chart=mostPopular&key=${API_KEY}`
         try {
             async function fetchHomedata() {
 
                 const response = await axios.get(`${CATEGORY_VIDEO_API}${SubPart}`)
                 console.log(response.data.items);
                 setAllVideoData(response.data.items)
+                // alert(`${CATEGORY_VIDEO_API}${SubPart}`)
 
                 setPage(response.data.nextPageToken)
             }
@@ -54,7 +55,7 @@ function Home() {
 
     const loadMore = async () => {
 
-        const SubPart = `&pageToken=${page}&regionCode=IN&${ActiveTabBar.id ? `videoCategoryId=&${ActiveTabBar.id}` : ''}maxResults=20&chart=mostPopular&key=${API_KEY}`
+        const SubPart = `&pageToken=${page}&regionCode=AE${ActiveTabBar.id ? `&videoCategoryId=${ActiveTabBar.id}&` : '&'}maxResults=8&chart=mostPopular&key=${API_KEY}`
         const response = await axios.get(`${CATEGORY_VIDEO_API}${SubPart}`)
         console.log(response.data);
         setPage(response.data.nextPageToken)

@@ -28,7 +28,7 @@ function PlayScreen() {
     }
 
     const loadMore = async (bol) => {
-        const SubPart = `${Page != '' ? `&pageToken=${Page}&` : '&'}regionCode=IN${categoryId ? `&videoCategoryId=${categoryId}&` : '&'}maxResults=10&chart=mostPopular&key=${API_KEY}`
+        const SubPart = `${Page != '' ? `&pageToken=${Page}&` : '&'}regionCode=US${categoryId ? `&videoCategoryId=${categoryId}&` : '&'}maxResults=10&chart=mostPopular&key=${API_KEY}`
 
         const response = await axios.get(`${CATEGORY_VIDEO_API}${SubPart}`)
         console.log(``);
@@ -37,7 +37,6 @@ function PlayScreen() {
 
         setPage(response.data.nextPageToken)
         bol?setAllVideoData(prev=>[...prev,...response.data.items]):setAllVideoData(response.data.items)
-        
         return true
     }
     useEffect(() => {
@@ -101,7 +100,7 @@ function PlayScreen() {
                                 <div className="leftBtns">
                                     <div className="ChannelImage" style={{ backgroundImage: `url(https://i.ytimg.com/vi/wT8bZ9MIjYM/oardefault.jpg?sqp=-oaymwEoCNAFENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCQz7GjYRRVW94jX4py6VV7Xf-qgg&usqp=CCk)` }}></div>
                                     <div className="ChannelName">
-                                        <h5>CHannel Name</h5>
+                                        <h5>{VideoData?.snippet?.channelTitle}</h5>
                                         <p>2.9M subscribers</p>
                                     </div>
                                     <div className="SubscribeBtn">Subscribe</div>
